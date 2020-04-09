@@ -48,6 +48,7 @@ body{
     margin-top: 15vh;
   }
     .content_index{color: #000000; text-align: center;}
+
     /*以下はレスポンシブ対応*/
     @media(max-width:670px){
       header{display: block; width:100vw; height: 15vh; text-align: center;
@@ -57,4 +58,9 @@ body{
       main{display: none;} 
       #side{width: 100vw; height:85vh;}
       #content{margin-top:7.5vh; margin-left: 15vw; height:70vh}
+    }
+
+    #intro{
+      font-family:"Yu Mincho";
+      font-size: 10px;
     }
