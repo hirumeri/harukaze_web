@@ -40,13 +40,15 @@ body{
     .side_index{background-color: #C2C2C2;}
     .side_concert{background-color: #E3007F;}
     .side_contact{background-color:#5E9CC0}
-    #ContentTop{
-      width: 70vw;
-      height: 70vh;
-      background-color: #ffffff;
-      margin-left: 7.5vw;
-      margin-top: 15vh;
-    }
+  #content{
+    width: 70vw;
+    height: 70vh;
+    background-color: #ffffff;
+    margin-left: 7.5vw;
+    margin-top: 15vh;
+  }
+    .content_index{color: #000000; text-align: center;}
+    /*以下はレスポンシブ対応*/
     @media(max-width:670px){
       header{display: block; width:100vw; height: 15vh; text-align: center;
       }
@@ -54,5 +56,5 @@ body{
       }
       main{display: none;} 
       #side{width: 100vw; height:85vh;}
-      #ContentTop{margin-top:7.5vh; margin-left: 15vw; height:70vh}
+      #content{margin-top:7.5vh; margin-left: 15vw; height:70vh}
     }
