@@ -40,7 +40,7 @@ body{
   }
     .side_index{background-color: #C2C2C2;}
     .side_concert{background-color: #E3007F;}
-    .side_contact{background-color:#5E9CC0}
+    .side_contact{background-color:#5E9CC0;}
   #content{
     width: 70vw;
     height: 70vh;
@@ -49,6 +49,11 @@ body{
     margin-top: 15vh;
   }
     .content_index{color: #000000; text-align: center;}
+    .content_contact{text-align: center;
+                     padding-top: 5vh;
+                     margin-left: auto;
+                     margin-right: auto;
+    }
 
     /*以下はレスポンシブ対応*/
     @media(max-width:479px){
