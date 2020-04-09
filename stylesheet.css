@@ -50,7 +50,7 @@ body{
     .content_index{color: #000000; text-align: center;}
 
     /*以下はレスポンシブ対応*/
-    @media(max-width:670px){
+    @media(max-width:479px){
       header{display: block; width:100vw; height: 15vh; text-align: center;
       }
       header img{height: 15vh;
