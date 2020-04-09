@@ -19,7 +19,7 @@ body{
         padding-bottom: 0vh;
         margin-left: 2vw;
         line-height: 200%;  
-      }
+            }
       #twitter{
         margin-top: -10%;
         margin-left: 30%;
@@ -76,4 +76,13 @@ body{
     #intro{
       font-family:"Yu Mincho", "HiraMinProN-W6";
       font-size: 14px;
+    }
+    
+    .link{
+      text-decoration: none;
+    }
+    #back{
+      color: #ffffff; 
+      font-family:"Yu Mincho", "HiraMinProN-W6";
+      text-align: center; 
     }
