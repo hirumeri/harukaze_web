@@ -17,7 +17,7 @@ body{
       main ul{
         padding-top: 5vh;
         padding-bottom: 0vh;
-        margin-left: -2vw;
+        margin-left: 2vw;
         line-height: 200%;  
             }
       main ul li{
@@ -57,11 +57,29 @@ body{
         text-align: center;
         overflow: auto;
     }
+    .content_index::-webkit-scrollbar{
+      width: 5px;
+      height: 5px;
+    }
+    .content_index::-webkit-scrollbar-track{
+    } 
+    .content_index::-webkit-scrollbar-thumb {
+      background: #E3007F;
+    }
     .content_concert{
         color: #000000;
         text-align: center;
         font-family: "Yu Mincho", "HiraMinProN-W6";
         padding-top: 5vh;
+    }
+    .content_concert::-webkit-scrollbar{
+      width: 5px;
+      height: 5px;
+    }
+    .content_concert::-webkit-scrollbar-track{
+    } 
+    .content_concert::-webkit-scrollbar-thumb {
+      background: #C2C2C2;
     }
     .content_contact{
         text-align: center;
@@ -69,7 +87,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    
     #intro{
       font-family:"Yu Mincho", "HiraMinProN-W6";
       font-size: 1.2em;
