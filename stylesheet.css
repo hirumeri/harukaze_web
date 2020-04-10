@@ -17,7 +17,7 @@ body{
       main ul{
         padding-top: 5vh;
         padding-bottom: 0vh;
-        margin-left: 2vw;
+        margin-left: -2vw;
         line-height: 200%;  
             }
       main ul li{
@@ -77,6 +77,15 @@ body{
     
     .link{
       text-decoration: none;
+    }
+    .past{
+      text-decoration: none;
+      color: black;
+    }
+    .past span:hover{
+      text-decoration: none;
+      color: black;
+      border: solid 1px #000000;
     }
     #back{
       color: #ffffff; 
