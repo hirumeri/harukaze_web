@@ -17,10 +17,11 @@ body{
       main ul{
         padding-top: 5vh;
         padding-bottom: 0vh;
-        margin-left: -2vw;
+        margin-left: 2vw;
         line-height: 200%;  
             }
       main ul li{
+        list-style: none;
         color: black;
       }
       #twitter{
