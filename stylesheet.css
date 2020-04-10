@@ -17,10 +17,10 @@ body{
       main ul{
         padding-top: 5vh;
         padding-bottom: 0vh;
-        margin-left: 2vw;
+        margin-left: -2vw;
         line-height: 200%;  
             }
-      main ul li{
+      main ul lt{
         color: black;
       }
       #twitter{
@@ -55,7 +55,6 @@ body{
         color: #000000;
         text-align: center;
         overflow: auto;
-        
     }
     .content_concert{
         color: #000000;
@@ -82,6 +81,10 @@ body{
       color: #ffffff; 
       font-family:"Yu Mincho", "HiraMinProN-W6";
       text-align: center; 
+    }
+    #back span:hover{
+      text-decoration: none;
+      border: solid 1px #ffffff;
     }
     .highlight {
         background: linear-gradient(transparent 50%, #f288c4 0%);
