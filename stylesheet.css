@@ -51,7 +51,11 @@ body{
     margin-left: 7.5vw;
     margin-top: 15vh;
   }
-    .content_index{color: #000000; text-align: center;}
+    .content_index{
+        color: #000000;
+        text-align: center;
+        overflow: auto;
+    }
     .content_concert{
         color: #000000;
         text-align: center;
@@ -64,21 +68,10 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-
-    /*以下はレスポンシブ対応*/
-    @media(max-width:479px){
-      header{display: block; width:100vw; height: 15vh; text-align: center;
-      }
-      header img{height: 15vh;
-      }
-      main{display: none;} 
-      #side{width: 100vw; height:85vh;}
-      #content{margin-top:7.5vh; margin-left: 15vw; height:70vh}
-    }
-
+    
     #intro{
       font-family:"Yu Mincho", "HiraMinProN-W6";
-      font-size: 14px;
+      font-size: 1.2em;
     }
     
     .link{
@@ -92,4 +85,15 @@ body{
     .highlight {
         background: linear-gradient(transparent 50%, #f288c4 0%);
         line-height: 1.3em;
+    }
+
+    /*以下はレスポンシブ対応*/
+    @media(max-width:479px){
+      header{display: block; width:100vw; height: 15vh; text-align: center;
+      }
+      header img{height: 15vh;
+      }
+      main{display: none;} 
+      #side{width: 100vw; height:85vh;}
+      #content{margin-top:7.5vh; margin-left: 15vw; height:70vh}
     }
