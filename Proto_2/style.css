@@ -18,7 +18,7 @@ header {
   position: fixed;
   margin-top: 0;
   align-items: center;
-  z-index: +1;
+  z-index: 10;
   border-bottom: solid 5px #F9F9F9;
 }
  
@@ -160,7 +160,7 @@ footer{
   align-items: center;
   text-align: center;
   text-decoration: none;
-  padding-top: 5%;
+  padding-top: 1%;
 }
 
 #index_contact{
@@ -190,4 +190,21 @@ footer{
 
 .link span:hover {
   border: 1px solid #000000;
+}
+
+
+#contact{
+  background-color: #94A8B0;
+  width: 100%;
+  padding-top: 10vh;
+  padding-bottom: 1vh;
+}
+
+#contact_form{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 600px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
