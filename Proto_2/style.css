@@ -11,13 +11,15 @@ body{
 }
  
 header {
-  background: #cecece;
+  background: #ffffff;
   display: flex;
   height: 10vh;
   width: 100%;
   position: fixed;
   margin-top: 0;
   align-items: center;
+  z-index: +1;
+  border-bottom: solid 5px #F9F9F9;
 }
  
 header .inner {
@@ -46,11 +48,10 @@ header img {
 }
  
 .nav_global li {
-  color:#949494;
+  color:#000;
   padding-left:3vw ;
   list-style:none ;
 }
-
 
 #index_pic{
   width: 100%;
@@ -61,18 +62,18 @@ header img {
   width: 100%;
   background-color: #E3007F;
   display: flex;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   align-items: flex-end;
 }
 
 #concert_left{
-  width: 30%;
-  padding-left: 10%;
+  width: 25%;
+  padding-left: 15%;
 }
 
 #count_concert{
-  font-size: 3.5em;
+  font-size: 2.8em;
   background-color: #F3F3F3;
   text-align: center;
 }
@@ -89,7 +90,7 @@ header img {
 }
 
 #concert_right{
-  width: 47%;
+  width: 42%;
   padding-left: 3%;
 }
 
@@ -102,18 +103,18 @@ header img {
   width: 100%;
   background-color: #5E9CC0;
   display: flex;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   align-items: flex-end;
 }
 
 #about_left{
-  width: 35%;
-  padding-left: 5%;
+  width: 30%;
+  padding-left: 15%;
 }
 
 #aboutus{
-  font-size: 4em;
+  font-size: 3em;
   background-color: #F3F3F3;
   text-align: center;
   width: 100%;
@@ -142,8 +143,8 @@ header img {
 }
 
 #about_right{
-  width: 50%;
-  padding-left: 5%;
+  width:40%;
+  padding-left: 2%;
   height: 100%;
 }
 
@@ -188,5 +189,5 @@ footer{
 }
 
 .link span:hover {
-  border: 1px solid #949494;
+  border: 1px solid #000000;
 }
